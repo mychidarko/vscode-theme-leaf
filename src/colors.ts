@@ -12,7 +12,7 @@ export const colors = {
 }
 
 // [dark, light]
-export const VitesseThemes = {
+export const Themes = {
   primary: ['#4d9375', '#1c6b48'],
 
   foreground: ['#dbd7caee', '#393a34'],
@@ -22,27 +22,35 @@ export const VitesseThemes = {
   faded: ['#dedcd510', '#393a3410'],
   border: ['#191919', '#f0f0f0'],
 
-  background: ['#121212', '#ffffff'],
-  activeBackground: ['#181818', '#f7f7f7'],
+  background: ['#001318', '#ffffff'],
+  activeBackground: ['#001014', '#f7f7f7'],
 
-  lowBackground: ['#222', '#F1F0E9'],
-  lowActiveBackground: ['#292929', '#E7E5DB'],
+  lowBackground: ['#002f3b', '#F1F0E9'],
+  lowActiveBackground: ['#002732', '#E7E5DB'],
   lowBorder: ['#252525', '#E7E5DB'],
 
-  comment: ['#758575dd', '#a0ada0'],
-  string: ['#c98a7d', '#b56959'],
-  variable: ['#bd976a', '#b07d48'],
-  keyword: ['#4d9375', '#1e754f'],
-  number: ['#4C9A91', '#2f798a'],
-  boolean: ['#4d9375', '#1e754f'],
-  operator: ['#cb7676', '#ab5959'],
-  function: ['#80a665', '#59873a'],
+  comment: ['#bbb7d4', '#a0ada0'],
+  string: ['#bef264', '#b56959'],
+  variable: ['#fff', '#b07d48'],
+  keyword: ['#e879f9', '#1e754f', '#e879f9'],
+  number: ['#f78c6c', '#2f798a'],
+  boolean: ['#e879f9', '#1e754f'],
+  operator: ['#9299a6', '#ab5959'],
+  punctuations: ['#89ddff', '#ab5959'],
+  variablePunctuation: ['#fff', '#ab5959'],
+  function: ['#a6accd', '#59873a'],
+  functionCall: ['#22d3ee', '#59873a'],
+  systemFunctionCall: ['#22a6ee', '#59873a'],
   constant: ['#c99076', '#a65e2b'],
-  class: ['#6893BF', '#5a6aa6'],
-  interface: ['#5DA994', '#2e8f82'],
-  type: ['#5da9a7', '#2e808f'],
-  builtin: ['#cb7676', '#ab5959'],
-  property: ['#b8a965', '#998418'],
+  this: ['#fff', '#a65e2b'],
+  builtinConstant: ['#fff', '#a65e2b'],
+  class: ['#fff', '#5a6aa6'],
+  method: ['#a6accd', '#5a6aa6'],
+  classUse: ['#fff', '#5a6aa6'],
+  interface: ['#fff', '#2e8f82'],
+  type: ['#a6accd', '#2e808f'],
+  builtin: ['#e879f9', '#ab5959'],
+  property: ['#a6accd', '#998418'],
   namespace: ['#db889a', '#b05a78'],
   punctuation: ['#666666', '#999999'],
   decorator: ['#bd8f8f', '#bd8f8f'],
@@ -56,4 +64,4 @@ export const VitesseThemes = {
   orange: ['#d4976c', '#a65e2b'],
   yellow: ['#e6cc77', '#bda437'],
   magenta: ['#d9739f', '#a13865'],
-}
+};
