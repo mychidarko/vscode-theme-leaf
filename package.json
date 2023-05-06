@@ -1,30 +1,30 @@
 {
-  "name": "theme-vitesse",
-  "displayName": "Vitesse Theme",
+  "name": "leaf-theme",
+  "displayName": "Leaf Theme",
   "version": "0.6.4",
   "packageManager": "pnpm@7.5.0",
-  "description": "Vitesse theme for VS Code",
+  "description": "Leaf PHP theme for VS Code",
   "categories": [
     "Themes"
   ],
   "keywords": [
     "theme",
-    "vitesse",
+    "leaf",
     "light",
     "dark"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/antfu/vscode-theme-vitesse"
+    "url": "https://github.com/mychidarko/vscode-theme-leaf"
   },
   "files": [
     "themes"
   ],
   "bugs": {
-    "url": "https://github.com/antfu/vscode-theme-vitesse/issues"
+    "url": "https://github.com/mychidarko/vscode-theme-leaf/issues"
   },
-  "publisher": "antfu",
+  "publisher": "mychidarko",
   "scripts": {
     "build": "esno src/index.ts",
     "dev": "nodemon --watch src -e ts --exec \"esno src/index.ts\"",
@@ -35,34 +35,23 @@
   "contributes": {
     "themes": [
       {
-        "label": "Vitesse Light",
-        "uiTheme": "vs",
-        "path": "./themes/vitesse-light.json"
-      },
-      {
-        "label": "Vitesse Dark",
+        "label": "Leaf Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/vitesse-dark.json"
+        "path": "./themes/leaf-dark.json"
       },
       {
-        "label": "Vitesse Black",
+        "label": "Leaf Black",
         "uiTheme": "vs-dark",
-        "path": "./themes/vitesse-black.json"
+        "path": "./themes/leaf-black.json"
       },
       {
-        "label": "Vitesse Light Soft",
-        "uiTheme": "vs",
-        "path": "./themes/vitesse-light-soft.json"
-      },
-      {
-        "label": "Vitesse Dark Soft",
+        "label": "Leaf Dark Soft",
         "uiTheme": "vs-dark",
-        "path": "./themes/vitesse-dark-soft.json"
+        "path": "./themes/leaf-dark-soft.json"
       }
     ]
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.19.4",
     "@antfu/utils": "^0.5.0",
     "@types/color": "^3.0.3",
     "@types/node": "^17.0.23",
