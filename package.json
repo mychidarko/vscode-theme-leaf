@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/mychidarko/vscode-theme-leaf/issues"
   },
-  "publisher": "mychidarko",
+  "publisher": "leafphp",
   "scripts": {
     "build": "esno src/index.ts",
     "dev": "nodemon --watch src -e ts --exec \"esno src/index.ts\"",
