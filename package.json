@@ -1,7 +1,7 @@
 {
   "name": "leaf-theme",
   "displayName": "Leaf Theme",
-  "version": "0.6.4",
+  "version": "0.1.0",
   "packageManager": "pnpm@7.5.0",
   "description": "Leaf PHP theme for VS Code",
   "categories": [
